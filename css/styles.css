@@ -69,3 +69,18 @@ body {
 .description-part1 {
   padding: 0px 20px 0px 20px;
 }
+
+.description-section-leftside {
+  max-width: 600px;
+  color: #fff;
+}
+
+.howbig {
+  font-size: 65px;
+  font-weight: normal;
+}
+
+.slack-button {
+  width: 35%;
+  height: 35%;
+}
