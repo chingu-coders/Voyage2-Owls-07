@@ -1,14 +1,14 @@
 /* General */
 
 @font-face {
-  font-family: "Bariol";
-  src: url("/font/bariol_regular-webfont.woff2") format("woff2");
+  font-family: Bariol;
+  src: url(../font/bariol_regular-webfont.woff2);
 }
 
 body {
   box-sizing: border-box;
   text-rendering: optimizeLegibility;
-  font-family: "Bariol", Arial, sans-serif;
+  font-family: Bariol, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.4;
   height: 1000vh;
@@ -33,7 +33,7 @@ body {
 
 .nav-menu ul li {
   display: inline-block;
-  font-size: 0.775rem;
+  font-size: 0.875rem;
   letter-spacing: 0.5px;
   margin-left: 15px;
 }
@@ -49,7 +49,7 @@ body {
 }
 
 .nav-menu ul li a.sign-in {
-  padding: 13px 18px;
+  padding: 10px 20px;
   font-weight: 600;
   background-color: hsla(0, 0%, 100%, .15);
   border-radius: 5px;
