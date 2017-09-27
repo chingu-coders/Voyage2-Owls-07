@@ -55,3 +55,10 @@ body {
 .nav-menu ul li a.sign-in:hover {
   background-color: hsla(0, 0%, 100%, .25);
 }
+
+.description-section {
+  background-color: hsl(267, 100%, 26%);
+  position: relative;
+  height: 780px;
+  padding-top: 122px;
+}
