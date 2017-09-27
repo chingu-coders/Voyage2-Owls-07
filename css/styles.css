@@ -62,3 +62,7 @@ body {
   height: 780px;
   padding-top: 122px;
 }
+
+.description-part1 {
+  padding: 0px 20px 0px 20px;
+}
