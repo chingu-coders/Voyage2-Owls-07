@@ -55,3 +55,26 @@ body {
 .nav-menu ul li a.sign-in:hover {
   background-color: hsla(0, 0%, 100%, .25);
 }
+
+/* Features */
+
+.feature-images {
+  margin: 60px auto 0;
+  /* display: flex; */
+  /* justify-content: space-between; */
+  max-width: 1180px;
+  overflow: hidden;
+}
+
+.feature-images img {
+  max-width: 45%;
+}
+
+.pairing-image {
+  margin-left: -32px;
+}
+
+.onboarding-image {
+  float: right;
+  margin-right: -32px;
+}
