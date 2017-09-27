@@ -1,0 +1,151 @@
+/* Footer Section By Tony*/
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    color: rgb(56, 0, 137);
+    font-size: 16px;
+    line-height: 1.4;
+    min-height: 50vh;
+}
+
+footer {
+    font-family: Arial, sans-serif;
+    display: block;
+    padding: 40px 0;
+    background: rgb(239, 241, 243);
+}
+
+footer div {
+    display: block;
+}
+
+footer h5 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.1;
+    display: block;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0px;
+    font-weight: 300;
+    line-height: 1.2;
+    box-sizing: border-box;
+    margin: 0px;
+    display: block;
+}
+
+footer ul li {
+    display: inline-block;
+    width: calc(50% - 4px);
+    margin-bottom: 20px;
+}
+
+footer ul li a {
+    font-size: 1.125rem;
+    font-weight: 300;
+}
+footer ul li:last-child {
+    float: right;
+    text-indent: -4px;
+}
+
+a {
+    color: rgb(127, 80, 255);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: rgb(56, 0, 137);
+}
+
+.footer-left, .footer-middle, .footer-right {
+    padding-right: 70px;
+    width: 33.33%;
+}
+.footer-left {
+    font-size: 1.125rem;
+    color: rgb(56, 0, 137);
+}
+
+.footer-left input {
+    display: block;
+    width: 100%;
+    font-size: 1.5rem;
+    padding: 14px 10px 12px;
+    margin: 20px 0px; 
+    vertical-align: baseline;   
+    font-family: /*"Bariol", */Arial, sans-serif;  
+    border: none;
+    border-radius: 5px;
+}
+.footer-left input[type="email"] {  
+    font-weight: 300;
+    color: rgb(56, 0, 137);
+    background: rgb(255, 255, 255);
+}
+.footer-left input[type="email"]::placeholder,
+.footer-left input[type="email"]:-ms-input-placeholder {
+    font-weight: 300;
+    color: rgb(56, 0, 137);
+}
+.footer-left input[type="submit"] {  
+    font-weight: 600;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    background: rgb(127, 80, 255);
+}
+
+.footer-left input[type="submit"]:hover {
+    background: rgb(56, 0, 137);
+}
+
+footer, footer button, footer input, footer select, footer textarea {
+    color: rgb(56, 0, 137);
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+.footer-container {
+    padding-left:20px;
+    padding-right:20px;
+}
+
+.footer-right > .social-media ul li{
+}
+
+.footer-right .copyright {
+    font-size: 1.125rem;
+    color: #380089;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@media (min-width: 880px){
+
+    footer, .footer-container {
+        display: flex;
+    }
+
+    .footer-container {
+        width: 100%;
+        max-width: 1180px;
+        margin: 0px auto;
+    }
+}
+
+@media (max-width: 879px) {
+
+    .footer-left, .footer-middle, .footer-right {
+        width: 100%;
+        padding-right: 0;
+    }
+}
