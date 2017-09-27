@@ -1,9 +1,14 @@
 /* General */
 
+@font-face {
+  font-family: "Bariol";
+  src: url("/font/bariol_regular-webfont.woff2") format("woff2");
+}
+
 body {
   box-sizing: border-box;
   text-rendering: optimizeLegibility;
-  font-family: Bariol, Arial, sans-serif;
+  font-family: "Bariol", Arial, sans-serif;
   font-size: 16px;
   line-height: 1.4;
   height: 1000vh;
@@ -60,8 +65,6 @@ body {
 
 .feature-images {
   margin: 60px auto 0;
-  /* display: flex; */
-  /* justify-content: space-between; */
   max-width: 1180px;
   overflow: hidden;
 }
@@ -77,4 +80,8 @@ body {
 .onboarding-image {
   float: right;
   margin-right: -32px;
+}
+
+.pairing-link:after {
+  content: " \00BB";
 }
