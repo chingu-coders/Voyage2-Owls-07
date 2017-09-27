@@ -1,0 +1,43 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo {
+    padding: 60px 0px;
+    background: rgb(239, 241, 243);
+}
+.logo-container {
+	width: 100%;
+    max-width: 1180px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0px auto;
+}
+.logo-list {
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.logo-item {
+	width: 25%;
+	text-align: center;
+	padding: 20px 40px;
+}
+img {
+	height: auto;
+    max-width: 100%;
+    vertical-align: top;
+}
+
+@media (max-width: 879px) {
+	.logo {
+	    padding: 40px 0px;
+	}
+	.logo-item {
+	    width: 50%;
+	}
+}
