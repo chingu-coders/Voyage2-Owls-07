@@ -3,5 +3,54 @@
 body {
   box-sizing: border-box;
   text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
+  font-family: Bariol, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+/* Header */
+
+.top-header {
+  background-color: hsl(267, 100%, 26%);
+  height: 115px;
+}
+
+.top-nav {
+  padding: 39px 20px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.donutlogo {
+  height: 55px;
+}
+
+.nav-menu ul li {
+  display: inline-block;
+  font-size: 0.775rem;
+  letter-spacing: 0.5px;
+  margin-left: 15px;
+}
+
+.nav-menu ul li a {
+  color: hsla(0, 0%, 100%, .75);
+  text-decoration: none;
+  transition: color .3s;
+}
+
+.nav-menu ul li a:hover {
+  color: hsl(0, 0%, 100%);
+}
+
+.nav-menu ul li a.sign-in {
+  padding: 13px 18px;
+  font-weight: 600;
+  background-color: hsla(0, 0%, 100%, .15);
+  border-radius: 5px;
+  color: hsl(0, 0%, 100%);
+  transition: background-color .3s;
+}
+
+.nav-menu ul li a.sign-in:hover {
+  background-color: hsla(0, 0%, 100%, .25);
 }
