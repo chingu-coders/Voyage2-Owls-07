@@ -2,7 +2,13 @@
 
 @font-face {
   font-family: Bariol;
-  src: url(../font/bariol_regular-webfont.woff2);
+  src: url(../fonts/bariol_regular-webfont.woff2);
+}
+
+@font-face {
+  font-family: Bariol;
+  font-weight: 300;
+  src: url(../fonts/bariol_light-webfont.woff2);
 }
 
 body {
@@ -88,9 +94,10 @@ body {
 }
 
 .howbig {
-  font-size: 65px;
+  font-size: 5rem;
   font-weight: 300;
-  margin-top: 67px;
+  margin-top: 59px;
+  line-height: 1.15;
 }
 
 .slack-button {
