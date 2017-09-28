@@ -54,8 +54,8 @@ body {
 
 .nav-menu ul li {
   display: inline-block;
-  font-size: 0.875rem;
-  letter-spacing: 0.5px;
+  font-size: .875rem;
+  letter-spacing: .5px;
   margin-left: 15px;
 }
 
@@ -159,13 +159,16 @@ img.logo-image {
 /* Features */
 
 .feature-images {
-  margin: 60px auto 0;
+  margin: 38px auto 0;
   max-width: 1180px;
   overflow: hidden;
 }
 
 .feature-images img {
   max-width: 45%;
+  position: relative;
+  z-index: -1;
+  top: 21px;
 }
 
 .pairing-image {
@@ -177,8 +180,49 @@ img.logo-image {
   margin-right: -32px;
 }
 
+.feature-descriptions h3 {
+  font-size: 3.75rem;
+  line-height: 1.1;
+  font-weight: 300;
+  color: hsl(265, 100%, 27%);
+  margin-bottom: -17px;
+  margin-top: 5px;
+}
+
+.feature-paragraph {
+  color: hsl(265, 100%, 27%);
+  font-size: 1.875rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.pairing-description,
+.onboarding-description {
+  background-color: hsl(210, 14%, 95%);
+  border-radius: 10px;
+  margin: 20px;
+  padding: 20px;
+}
+
+.pairing-link {
+  font-size: 1.5rem;
+  font-weight: 600;
+  transition: color .3s;
+  color: hsl(256, 100%, 66%);
+  text-decoration: none;
+}
+
+.pairing-link:hover {
+  color: hsl(265, 100%, 27%);
+}
+
 .pairing-link:after {
   content: " \00BB";
+}
+
+.feature-descriptions {
+  display: flex;
+  clear: both;
 }
 
 /* max 879px */
