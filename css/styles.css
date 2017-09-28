@@ -66,6 +66,7 @@ body {
   position: relative;
   height: 658px;
   padding-top: 122px;
+  overflow: hidden;
 }
 
 .description-part1 {
@@ -80,15 +81,16 @@ body {
 .howbig {
   font-size: 65px;
   font-weight: normal;
+  margin-top: 67px;
 }
 
 .slack-button {
-  width: 35%;
-  height: 35%;
+  margin-top: -38px;
+  width: 37%;
 }
 
 .blond-girl {
   position: absolute;
   bottom: 0;
-  left: 46%;
+  left: 50%;
 }
