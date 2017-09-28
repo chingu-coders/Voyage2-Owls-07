@@ -218,7 +218,6 @@ img.logo-image {
 
 .feature-descriptions {
   display: flex;
-  /* justify-content: center; */
   clear: both;
 }
 
