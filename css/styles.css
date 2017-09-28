@@ -44,6 +44,8 @@ body {
   padding: 39px 20px 0;
   display: flex;
   justify-content: space-between;
+  max-width: 1180px;
+  margin: auto;
 }
 
 .donutlogo {
@@ -93,6 +95,8 @@ body {
 
 .description-part1 {
   padding: 0 20px;
+  margin: auto;
+  max-width: 1180px;
 }
 
 .description-section-leftside {
