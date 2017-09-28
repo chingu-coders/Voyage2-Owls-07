@@ -155,13 +155,16 @@ img.logo-image {
 /* Features */
 
 .feature-images {
-  margin: 60px auto 0;
+  margin: 38px auto 0;
   max-width: 1180px;
   overflow: hidden;
 }
 
 .feature-images img {
   max-width: 45%;
+  position: relative;
+  z-index: -1;
+  top: 21px;
 }
 
 .pairing-image {
@@ -173,12 +176,12 @@ img.logo-image {
   margin-right: -32px;
 }
 
-h3 {
+.feature-descriptions h3 {
   font-size: 3.75rem;
   line-height: 1.1;
   font-weight: 300;
   color: hsl(265, 100%, 27%);
-  margin-bottom: 5px;
+  margin-bottom: -17px;
   margin-top: 5px;
 }
 
