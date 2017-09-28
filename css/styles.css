@@ -64,7 +64,7 @@ body {
 .description-section {
   background-color: hsl(267, 100%, 26%);
   position: relative;
-  height: 658px;
+  height: 780px;
   padding-top: 122px;
   overflow: hidden;
 }
@@ -85,7 +85,7 @@ body {
 }
 
 .slack-button {
-  margin-top: -38px;
+  margin-top: 14px;
   width: 215px;
 }
 
