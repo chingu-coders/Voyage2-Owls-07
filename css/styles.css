@@ -52,8 +52,8 @@ body {
 
 .nav-menu ul li {
   display: inline-block;
-  font-size: 0.875rem;
-  letter-spacing: 0.5px;
+  font-size: .875rem;
+  letter-spacing: .5px;
   margin-left: 15px;
 }
 
@@ -178,6 +178,8 @@ h3 {
   line-height: 1.1;
   font-weight: 300;
   color: hsl(265, 100%, 27%);
+  margin-bottom: 5px;
+  margin-top: 5px;
 }
 
 .feature-paragraph {
@@ -191,6 +193,8 @@ h3 {
 .onboarding-description {
   background-color: hsl(210, 14%, 95%);
   border-radius: 10px;
+  margin: 20px;
+  padding: 20px;
 }
 
 .pairing-link {
@@ -207,6 +211,12 @@ h3 {
 
 .pairing-link:after {
   content: " \00BB";
+}
+
+.feature-descriptions {
+  display: flex;
+  /* justify-content: center; */
+  clear: both;
 }
 
 /* max 879px */
