@@ -59,6 +59,8 @@ body {
   background-color: hsla(0, 0%, 100%, .25);
 }
 
+/* Description/ */
+
 .description-section {
   background-color: hsl(267, 100%, 26%);
   position: relative;
@@ -67,12 +69,12 @@ body {
 }
 
 .description-part1 {
-  padding: 0px 20px 0px 20px;
+  padding: 0 20px;
 }
 
 .description-section-leftside {
   max-width: 600px;
-  color: #fff;
+  color: hsl(0, 0%, 100%);
 }
 
 .howbig {
