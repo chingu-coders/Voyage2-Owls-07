@@ -173,6 +173,38 @@ img.logo-image {
   margin-right: -32px;
 }
 
+h3 {
+  font-size: 3.75rem;
+  line-height: 1.1;
+  font-weight: 300;
+  color: hsl(265, 100%, 27%);
+}
+
+.feature-paragraph {
+  color: hsl(265, 100%, 27%);
+  font-size: 1.875rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.pairing-description,
+.onboarding-description {
+  background-color: hsl(210, 14%, 95%);
+  border-radius: 10px;
+}
+
+.pairing-link {
+  font-size: 1.5rem;
+  font-weight: 600;
+  transition: color .3s;
+  color: hsl(256, 100%, 66%);
+  text-decoration: none;
+}
+
+.pairing-link:hover {
+  color: hsl(265, 100%, 27%);
+}
+
 .pairing-link:after {
   content: " \00BB";
 }
