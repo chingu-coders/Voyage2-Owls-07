@@ -189,9 +189,8 @@ body {
 }
 
 footer {
-  font-family: Bariol, Arial, sans-serif;
   display: block;
-  padding: 40px 0;
+  padding: 40px 0 20px;
   background: hsl(210, 14%, 95%);
 }
 
@@ -259,7 +258,6 @@ a:hover {
   font-size: 1.5rem;
   padding: 14px 10px 12px;
   margin: 20px 0;
-  vertical-align: baseline;
   font-family: Bariol, Arial, sans-serif;
   border: none;
   border-radius: 5px;
@@ -283,6 +281,7 @@ a:hover {
   color: hsl(0, 0%, 100%);
   cursor: pointer;
   background: hsl(256, 100%, 66%);
+  transition: background-color .3s;
 }
 
 .footer-left input[type="submit"]:hover {
