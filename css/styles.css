@@ -159,7 +159,7 @@ img.logo-image {
 .feature-images {
   margin: 38px auto 0;
   max-width: 1180px;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .feature-images img {
@@ -176,6 +176,11 @@ img.logo-image {
 .onboarding-image {
   float: right;
   margin-right: -32px;
+}
+
+.feature-descriptions {
+  display: flex;
+  clear: both;
 }
 
 .feature-descriptions h3 {
