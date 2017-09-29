@@ -179,14 +179,16 @@ img.logo-image {
   content: " \00BB";
 }
 
-/* Footer Section By Tony */
+/* Pre-footer */
 
-body {
-  color: hsl(265, 100%, 27%);
-  font-size: 16px;
-  line-height: 1.4;
-  min-height: 50vh;
+.pre-footer {
+    background: url(../img/pre-footer.svg) bottom center repeat-x transparent;
+    background-size: auto 100%;
+    margin-top: 40px;
+    height: 236px;
 }
+
+/* Footer Section By Tony */
 
 footer {
   display: block;
