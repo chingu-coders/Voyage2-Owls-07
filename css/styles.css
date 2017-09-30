@@ -356,6 +356,8 @@ footer, footer button, footer input, footer select, footer textarea {
 .footer-right > .social-media ul li{
   display: block;
   margin-right: 20px;
+  width: 22px;
+  height: 22px;
 }
 
 .footer-right .social-media a {
