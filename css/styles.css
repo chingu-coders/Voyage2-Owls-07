@@ -274,6 +274,10 @@ cite {
   margin-top: 30px;
 }
 
+.quote-link:after {
+  content: " \00BB";
+}
+
 /* Pre-footer */
 
 .pre-footer {
