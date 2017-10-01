@@ -45,10 +45,42 @@ body {
   justify-content: space-between;
   max-width: 1180px;
   margin: auto;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .donutlogo {
   height: 55px;
+}
+
+.scroll-affix-header .top-header {
+  background: #fff;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  height: auto;
+}
+
+.scroll-affix-header .top-nav {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.scroll-affix-header .donutlogo {
+  /*background-color: hsl(265, 100%, 27%);*/
+}
+.scroll-affix-header .top-nav a {
+  color: hsl(265, 100%, 27%);
+}
+.scroll-affix-header .top-nav a:hover {
+  color: hsl(256, 100%, 66%);
+}
+
+.scroll-affix-header .top-nav .sign-in {
+  color: hsl(265, 100%, 27%);
+  background-color: hsl(264, 36%, 89%);
+}
+.scroll-affix-header .top-nav .sign-in:hover {
+  background-color: hsl(265, 36%, 82%);
 }
 
 .nav-menu ul li {
