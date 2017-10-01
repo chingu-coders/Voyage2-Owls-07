@@ -552,3 +552,13 @@ footer, footer button, footer input, footer select, footer textarea {
   }
 
 }
+
+/* max 480px */
+
+@media (max-width: 480px) {
+
+  .description-section {
+    height: 745px;
+  }
+
+}
