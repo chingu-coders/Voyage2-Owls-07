@@ -255,7 +255,7 @@ img.logo-image {
   content: " \00BB";
 }
 
-/* Testimonials section */
+/* Testimonials */
 
 .testimonials {
   margin: 95px 0 125px 0;
@@ -526,6 +526,18 @@ footer, footer button, footer input, footer select, footer textarea {
 
 	.logo-item {
 	  width: 50%;
+  }
+
+  .feature-descriptions h3 {
+    font-size: 2.5rem;
+  }
+
+  .feature-paragraph {
+    font-size: 1.125rem;
+  }
+
+  .pairing-link {
+    font-size: 1.125rem;
   }
 
   .footer-left, .footer-middle, .footer-right {
