@@ -255,6 +255,67 @@ img.logo-image {
   content: " \00BB";
 }
 
+/* Testimonials section */
+
+.testimonials {
+  padding: 60px 0;
+}
+
+.testimonials-quote {
+  display: flex;
+}
+
+.quote-image_part {
+  flex-grow: 1;
+}
+
+.quote-image {
+  text-align: center;
+  display: inline-block;
+}
+
+.clark-img {
+  width: 300px;
+  margin-bottom: 30px;
+}
+
+.quote {
+  width: 60%;
+}
+
+blockquote {
+  text-indent: -16px;
+  font-size: 3.75rem;
+  font-weight: 300;
+  line-height: 1.1;
+  color: hsl(265, 100%, 26%);
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+
+}
+
+cite {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 300;
+  color: hsl(0, 0%, 55%);
+}
+
+cite strong {
+  font-weight: 700;
+}
+
+.quote-link {
+  font-size: 1.5rem;
+  font-weight: 600;
+  display: inline-block;
+  margin-top: 30px;
+}
+
+.quote-link:after {
+  content: " \00BB";
+}
 
 /* Pre-footer */
 
