@@ -226,7 +226,7 @@ img.logo-image {
 /* Testimonials section */
 
 .testimonials {
-  padding: 60px 0;
+  margin: 95px 0 125px 0;
 }
 
 .testimonials-quote {
@@ -235,6 +235,7 @@ img.logo-image {
 
 .quote-image_part {
   flex-grow: 1;
+  width: 330px;
 }
 
 .quote-image {
@@ -243,8 +244,12 @@ img.logo-image {
 }
 
 .clark-img {
-  width: 300px;
+  width: 320px;
   margin-bottom: 30px;
+}
+
+.testimonials-logo {
+  width: 200px;
 }
 
 .quote {
@@ -257,9 +262,7 @@ blockquote {
   font-weight: 300;
   line-height: 1.1;
   color: hsl(265, 100%, 26%);
-  margin-top: 0;
-  margin-left: 0;
-  margin-right: 0;
+  margin: 0 0 20px 0;
 
 }
 
@@ -279,6 +282,7 @@ cite strong {
   font-weight: 600;
   display: inline-block;
   margin-top: 30px;
+  max-width: 400px;
 }
 
 .quote-link:after {
