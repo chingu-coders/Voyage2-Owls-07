@@ -40,15 +40,47 @@ body {
 }
 
 .top-nav {
-  padding: 39px 20px 0;
+  padding: 39px 20px 20px;
   display: flex;
   justify-content: space-between;
   max-width: 1180px;
   margin: auto;
+  -webkit-transition: all .3s;
+  transition: all .3s;
 }
 
 .donutlogo {
   height: 55px;
+}
+
+.scroll-affix-header .top-header {
+  background: hsl(0, 0%, 100%);
+  -webkit-box-shadow: 0 0 10px hsla(0, 0%, 0%, .5);
+  box-shadow: 0 0 10px hsla(0, 0%, 0%, .5);
+  height: auto;
+}
+
+.scroll-affix-header .top-nav {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.scroll-affix-header .donutlogo {
+  /* background-color: hsl(265, 100%, 27%); */
+}
+.scroll-affix-header .top-nav a {
+  color: hsl(265, 100%, 27%);
+}
+.scroll-affix-header .top-nav a:hover {
+  color: hsl(256, 100%, 66%);
+}
+
+.scroll-affix-header .top-nav .sign-in {
+  color: hsl(265, 100%, 27%);
+  background-color: hsl(264, 36%, 89%);
+}
+.scroll-affix-header .top-nav .sign-in:hover {
+  background-color: hsl(265, 36%, 82%);
 }
 
 .nav-menu ul li {
@@ -124,7 +156,7 @@ body {
 
 .logo {
   padding: 60px 0;
-  background: rgb(239, 241, 243);
+  background: hsl(210, 14%, 95%);
 }
 
 .logo-container {
@@ -421,6 +453,8 @@ footer, footer button, footer input, footer select, footer textarea {
 .footer-right > .social-media ul li{
   display: block;
   margin-right: 20px;
+  width: 22px;
+  height: 22px;
 }
 
 .footer-right .social-media a {
