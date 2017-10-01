@@ -253,18 +253,25 @@ img.logo-image {
 
 blockquote {
   text-indent: -16px;
-  font-size: 3rem;
+  font-size: 3.75rem;
   font-weight: 300;
-  line-height: 1.2;
-  color: hsl(267, 100%, 26%);
-  margin-top: 0px;
-  margin-left: 0px;
+  line-height: 1.1;
+  color: hsl(265, 100%, 26%);
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+
 }
 
 cite {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   font-style: normal;
-  color: hsl(295, 1%, 52%);
+  font-weight: 300;
+  color: hsl(0, 0%, 55%);
+}
+
+cite strong {
+  font-weight: 700;
 }
 
 .quote-link {
