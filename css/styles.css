@@ -138,11 +138,11 @@ body {
   font-size: 5rem;
   font-weight: 300;
   margin-top: 59px;
-  line-height: 1.15;
+  line-height: 1.1;
 }
 
 .slack-button {
-  margin-top: -40px;
+  margin-top: -36px;
   width: 215px;
 }
 
@@ -150,6 +150,7 @@ body {
   position: absolute;
   bottom: 0;
   left: 50%;
+  max-width: 100%;
 }
 
 /* Logos */
@@ -450,7 +451,7 @@ footer, footer button, footer input, footer select, footer textarea {
   line-height: 1.2;
 }
 
-.footer-right > .social-media ul li{
+.footer-right > .social-media ul li {
   display: block;
   margin-right: 20px;
   width: 22px;
@@ -519,6 +520,22 @@ footer, footer button, footer input, footer select, footer textarea {
 /* max 879px */
 
 @media (max-width: 879px) {
+
+  .description-section {
+    padding-top: 63px;
+  }
+
+  .howbig {
+    font-size: 2.625rem;
+  }
+
+  .slack-button {
+    margin-top: -6px;
+  }
+
+  .blond-girl {
+    left: 0;
+  }
 
   .logo {
 	  padding: 40px 0;
