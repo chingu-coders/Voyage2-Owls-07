@@ -273,6 +273,7 @@ img.logo-image {
 .quote-image {
   text-align: center;
   display: inline-block;
+  width: 320px;
 }
 
 .clark-img {
