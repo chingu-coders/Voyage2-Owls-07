@@ -45,8 +45,8 @@ body {
   justify-content: space-between;
   max-width: 1180px;
   margin: auto;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
+  -webkit-transition: all .3s;
+  transition: all .3s;
 }
 
 .mobile-sign-in,
@@ -61,9 +61,8 @@ input#menu-btn {
 
 .scroll-affix-header .top-header {
   background:  hsla(0, 0%, 100%, 1);
-  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  height: auto;
+  -webkit-box-shadow: 0 0 10px hsla(0, 0%, 0%, .5);
+  box-shadow: 0 0 10px hsla(0, 0%, 0%, .5);
 }
 
 .scroll-affix-header .top-nav {
@@ -72,7 +71,7 @@ input#menu-btn {
 }
 
 .scroll-affix-header .donutlogo {
-  /*background-color: hsl(265, 100%, 27%);*/
+  /* background-color: hsl(265, 100%, 27%); */
 }
 .scroll-affix-header .top-nav a,
 .scroll-affix-header .mobile-menu-toggle {
@@ -164,7 +163,7 @@ input#menu-btn {
 
 .logo {
   padding: 60px 0;
-  background: rgb(239, 241, 243);
+  background: hsl(210, 14%, 95%);
 }
 
 .logo-container {
@@ -266,7 +265,7 @@ img.logo-image {
 /* Testimonials section */
 
 .testimonials {
-  padding: 60px 0;
+  margin: 95px 0 125px 0;
 }
 
 .testimonials-quote {
@@ -275,16 +274,22 @@ img.logo-image {
 
 .quote-image_part {
   flex-grow: 1;
+  width: 330px;
 }
 
 .quote-image {
   text-align: center;
   display: inline-block;
+  width: 320px;
 }
 
 .clark-img {
-  width: 300px;
+  width: 320px;
   margin-bottom: 30px;
+}
+
+.testimonials-logo {
+  width: 200px;
 }
 
 .quote {
@@ -297,9 +302,7 @@ blockquote {
   font-weight: 300;
   line-height: 1.1;
   color: hsl(265, 100%, 26%);
-  margin-top: 0;
-  margin-left: 0;
-  margin-right: 0;
+  margin: 0 0 20px 0;
 
 }
 
@@ -319,6 +322,7 @@ cite strong {
   font-weight: 600;
   display: inline-block;
   margin-top: 30px;
+  max-width: 400px;
 }
 
 .quote-link:after {
@@ -411,16 +415,10 @@ a:hover {
   border-radius: 5px;
 }
 
-.footer-left input[type="email"] {
+.footer-left input[type="email"]::placeholder {
   font-weight: 300;
-  color: hsl(265, 100%, 27%) !important;
+  color: hsl(265, 100%, 27%);
   background: hsl(0, 0%, 100%);
-}
-
-.footer-left input[type="email"]::placeholder,
-.footer-left input[type="email"]:-ms-input-placeholder {
-  font-weight: 300;
-  color: hsl(265, 100%, 27%) !important;
 }
 
 .footer-left input[type="submit"] {
@@ -443,8 +441,8 @@ footer, footer button, footer input, footer select, footer textarea {
 }
 
 .footer-container {
-  padding-left:20px;
-  padding-right:20px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .footer-right > .social-media ul {
