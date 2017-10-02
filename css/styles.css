@@ -408,16 +408,10 @@ a:hover {
   border-radius: 5px;
 }
 
-.footer-left input[type="email"] {
+.footer-left input[type="email"]::placeholder {
   font-weight: 300;
-  color: hsl(265, 100%, 27%) !important;
+  color: hsl(265, 100%, 27%);
   background: hsl(0, 0%, 100%);
-}
-
-.footer-left input[type="email"]::placeholder,
-.footer-left input[type="email"]:-ms-input-placeholder {
-  font-weight: 300;
-  color: hsl(265, 100%, 27%) !important;
 }
 
 .footer-left input[type="submit"] {
