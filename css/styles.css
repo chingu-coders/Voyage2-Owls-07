@@ -23,6 +23,7 @@ body {
   font-family: Bariol, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.4;
+  overflow-x: hidden;
 }
 
 * {
@@ -120,7 +121,7 @@ body {
   position: relative;
   height: 780px;
   padding-top: 122px;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .description-part1 {
@@ -188,31 +189,32 @@ img.logo-image {
 
 /* Features */
 
-.feature-images {
-  margin: 38px auto 0;
+.features {
+  margin: 60px auto 0;
   max-width: 1180px;
-  overflow: visible;
 }
 
-.feature-images img {
-  max-width: 45%;
-  position: relative;
+.features img {
+  max-width: 90%;
+  position: absolute;
   z-index: -1;
-  top: 21px;
+}
+
+.pairing-block,
+.onboarding-block {
+  position: relative;
 }
 
 .pairing-image {
-  margin-left: -32px;
+  right: 85px;
 }
 
 .onboarding-image {
-  float: right;
-  margin-right: -32px;
+  left: 81px;
 }
 
 .feature-descriptions {
   display: flex;
-  clear: both;
 }
 
 .feature-descriptions h3 {
@@ -231,12 +233,13 @@ img.logo-image {
   line-height: 1.2;
 }
 
-.pairing-description,
-.onboarding-description {
+.pairing-text,
+.onboarding-text {
   background-color: hsl(210, 14%, 95%);
   border-radius: 10px;
   margin: 20px;
   padding: 20px;
+  margin-top: 245px;
 }
 
 .pairing-link {
@@ -475,7 +478,7 @@ footer, footer button, footer input, footer select, footer textarea {
   height: auto;
   max-width: 100%;
   vertical-align: top;
-  overflow: hidden;
+  /* overflow: hidden; */
   transform-origin: 50% 50% 0;
 }
 
@@ -528,12 +531,40 @@ footer, footer button, footer input, footer select, footer textarea {
 	  width: 50%;
   }
 
+  .features {
+    margin: 24px auto 0;
+  }
+
+  .features img {
+    position: relative;
+
+  }
+
+  .feature-descriptions {
+    flex-direction: column;
+  }
+
   .feature-descriptions h3 {
     font-size: 2.5rem;
   }
 
   .feature-paragraph {
     font-size: 1.125rem;
+  }
+
+  .pairing-image {
+    right: 8px;
+    top: 15px;
+  }
+
+  .onboarding-image {
+    left: 50px;
+    top: 18px;
+  }
+
+  .pairing-text,
+  .onboarding-text {
+    margin-top: -50px;
   }
 
   .pairing-link {
