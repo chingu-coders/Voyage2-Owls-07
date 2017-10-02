@@ -60,7 +60,7 @@ input#menu-btn {
 }
 
 .scroll-affix-header .top-header {
-  background: #fff;
+  background:  hsla(0, 0%, 100%, 1);
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   height: auto;
@@ -555,14 +555,14 @@ footer, footer button, footer input, footer select, footer textarea {
   }
 
   .scroll-affix-header .top-header {
-    background: #fff;
-    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background:  hsla(0, 0%, 100%, 1);
+    -webkit-box-shadow: 0 0 10px hsla(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px hsla(0, 0, 0, 0.5);
     padding: 0 20px;
   }
 
   .scroll-affix-header .top-nav a {
-    color: hsl(265, 100%, 27%);;
+    color: hsl(267, 100%, 26%);
   }
 
   .flex-row .top-nav {
@@ -596,7 +596,7 @@ footer, footer button, footer input, footer select, footer textarea {
     float: right;
     font-size: 1.125rem;
     font-weight: 600;
-    color: #fff;
+    color:  hsla(0, 0%, 100%, 1);
     margin-right: 20px;
     -webkit-transition: color 0.3s;
     transition: color 0.3s;
@@ -604,7 +604,7 @@ footer, footer button, footer input, footer select, footer textarea {
 
   span.mobile-menu-toggle {
     font-size: 2em;
-    color: #fff;
+    color:  hsla(0, 0%, 100%, 1);
     cursor: pointer;
   }
 
@@ -616,7 +616,7 @@ footer, footer button, footer input, footer select, footer textarea {
     visibility: visible;
     opacity: 1;
 
-    color:#fff;
+    color: hsla(0, 0%, 100%, 1);
     font-weight: 300;
     line-height: 1.2;
     list-style: none;
@@ -644,7 +644,7 @@ footer, footer button, footer input, footer select, footer textarea {
     width: 100%;
     height: calc(100% - 74px);
     padding: 20px 0;
-    background: hsl(265, 100%, 27%);
+    background: hsl(267, 100%, 26%);
     -webkit-transition: visibility 0.3s, opacity 0.3s;
     transition: visibility 0.3s, opacity 0.3s;
     visibility: visible;
@@ -676,7 +676,7 @@ footer, footer button, footer input, footer select, footer textarea {
   }
 
   .nav-menu ul.centralize li a {
-    color: #fff;
+    color:  hsla(0, 0%, 100%, 1);
     font-size: 1.875em;
     font-weight: 500;
     letter-spacing: 1.5px;
