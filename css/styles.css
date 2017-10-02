@@ -237,9 +237,8 @@ img.logo-image {
 .onboarding-text {
   background-color: hsl(210, 14%, 95%);
   border-radius: 10px;
-  margin: 20px;
+  margin: 245px 20px 20px 20px;
   padding: 20px;
-  margin-top: 245px;
 }
 
 .pairing-link {
