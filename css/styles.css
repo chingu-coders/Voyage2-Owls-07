@@ -74,10 +74,12 @@ input#menu-btn {
 .scroll-affix-header .donutlogo {
   /* background-color: hsl(265, 100%, 27%); */
 }
+
 .scroll-affix-header .top-nav a,
 .scroll-affix-header .mobile-menu-toggle {
   color: hsl(265, 100%, 27%);
 }
+
 .scroll-affix-header .top-nav a:hover
 .mobile-menu-toggle:hover {
   color: hsl(256, 100%, 66%);
@@ -87,6 +89,7 @@ input#menu-btn {
   color: hsl(265, 100%, 27%);
   background-color: hsl(264, 36%, 89%);
 }
+
 .scroll-affix-header .top-nav .sign-in:hover {
   background-color: hsl(265, 36%, 82%);
 }
@@ -128,7 +131,6 @@ input#menu-btn {
   position: relative;
   height: 780px;
   padding-top: 122px;
-  /* overflow: hidden; */
 }
 
 .description-part1 {
@@ -306,7 +308,6 @@ blockquote {
   line-height: 1.1;
   color: hsl(265, 100%, 26%);
   margin: 0 0 20px 0;
-
 }
 
 cite {
@@ -480,7 +481,6 @@ footer, footer button, footer input, footer select, footer textarea {
   height: auto;
   max-width: 100%;
   vertical-align: top;
-  /* overflow: hidden; */
   transform-origin: 50% 50% 0;
 }
 
@@ -595,10 +595,6 @@ footer, footer button, footer input, footer select, footer textarea {
     clear: both;
   }
 
-}
-
-
-@media (max-width: 879px) {
   .top-header {
     position: fixed;
     z-index: 100;
@@ -606,15 +602,15 @@ footer, footer button, footer input, footer select, footer textarea {
     left: 0;
     width: 100%;
     padding: 10px 20px;
-    -webkit-transition: all 0.3s;
-    transition: all 0.3s;
+    -webkit-transition: all .3s;
+    transition: all .3s;
     height: 54px;
   }
 
   .scroll-affix-header .top-header {
     background:  hsla(0, 0%, 100%, 1);
-    -webkit-box-shadow: 0 0 10px hsla(0, 0, 0, 0.5);
-    box-shadow: 0 0 10px hsla(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0 0 10px hsla(0, 0, 0, .5);
+    box-shadow: 0 0 10px hsla(0, 0, 0, .5);
     padding: 0 20px;
   }
 
@@ -655,8 +651,8 @@ footer, footer button, footer input, footer select, footer textarea {
     font-weight: 600;
     color:  hsla(0, 0%, 100%, 1);
     margin-right: 20px;
-    -webkit-transition: color 0.3s;
-    transition: color 0.3s;
+    -webkit-transition: color .3s;
+    transition: color .3s;
   }
 
   span.mobile-menu-toggle {
@@ -672,7 +668,6 @@ footer, footer button, footer input, footer select, footer textarea {
   .nav-menu ul a {
     visibility: visible;
     opacity: 1;
-
     color: hsla(0, 0%, 100%, 1);
     font-weight: 300;
     line-height: 1.2;
@@ -702,8 +697,8 @@ footer, footer button, footer input, footer select, footer textarea {
     height: calc(100% - 74px);
     padding: 20px 0;
     background: hsl(267, 100%, 26%);
-    -webkit-transition: visibility 0.3s, opacity 0.3s;
-    transition: visibility 0.3s, opacity 0.3s;
+    -webkit-transition: visibility .3s, opacity .3s;
+    transition: visibility .3s, opacity .3s;
     visibility: visible;
     opacity: 1;
     z-index: 50;
@@ -738,12 +733,12 @@ footer, footer button, footer input, footer select, footer textarea {
     font-weight: 500;
     letter-spacing: 1.5px;
     text-decoration: none;
-    -webkit-transition: color 0.3s;
-    transition: color 0.3s;
+    -webkit-transition: color .3s;
+    transition: color .3s;
   }
 
 }
-/**** < 880px ****/
+
 /* max 480px */
 
 @media (max-width: 480px) {
