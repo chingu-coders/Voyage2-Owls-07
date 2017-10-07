@@ -589,6 +589,18 @@ footer, footer button, footer input, footer select, footer textarea {
     font-size: 1.125rem;
   }
 
+  .pre-footer {
+    height: 102px;
+  }
+
+  .footer-left input[type="submit"] {
+    margin-bottom: 40px;
+  }
+
+  .social-media {
+    margin-top: 60px;
+  }
+
   .footer-left, .footer-middle, .footer-right {
     width: 100%;
     padding-right: 0;
