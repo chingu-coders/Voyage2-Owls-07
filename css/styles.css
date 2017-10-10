@@ -37,7 +37,7 @@ body {
   position: fixed;
   z-index: 100;
   width: 100%;
-  height: 115px;
+  height: 76px;
 }
 
 .top-nav {
@@ -71,8 +71,8 @@ input#menu-btn {
   padding-bottom: 10px;
 }
 
-.scroll-affix-header .donutlogo {
-  /* background-color: hsl(265, 100%, 27%); */
+.scroll-affix-header .donutlogo .letter {
+  fill: hsl(265, 100%, 27%) !important;
 }
 
 .scroll-affix-header .top-nav a,
@@ -632,9 +632,17 @@ footer textarea {
     padding: 0 20px;
   }
 
-  .scroll-affix-header .top-nav > a img {
+  .donutlogo {
+  height: 34px;
+  }
+
+  .scroll-affix-header .top-nav > a svg {
     margin-bottom: 10px;
     transition: margin-bottom .3s;
+  }
+
+  .scroll-affix-header .donutlogo .letter {
+    fill: hsl(265, 100%, 27%) !important;
   }
 
   .scroll-affix-header .top-nav a {
