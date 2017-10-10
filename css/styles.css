@@ -345,7 +345,7 @@ cite strong {
 /* Footer Section By Tony */
 
 footer {
-  display: block;
+  display: flex;
   padding: 40px 0 20px;
   background: hsl(210, 14%, 95%);
 }
@@ -398,7 +398,9 @@ a:hover {
   color: hsl(265, 100%, 27%);
 }
 
-.footer-left, .footer-middle, .footer-right {
+.footer-left,
+.footer-middle,
+.footer-right {
   padding-right: 70px;
   width: 33.33%;
 }
@@ -438,7 +440,11 @@ a:hover {
   background: hsl(265, 100%, 27%);
 }
 
-footer, footer button, footer input, footer select, footer textarea {
+footer,
+footer button,
+footer input,
+footer select,
+footer textarea {
   color: hsl(265, 100%, 27%);
   font-size: 16px;
   line-height: 1.4;
@@ -447,6 +453,10 @@ footer, footer button, footer input, footer select, footer textarea {
 .footer-container {
   padding-left: 20px;
   padding-right: 20px;
+  display: flex;
+  /* width: 100%; */
+  /* max-width: 1180px; */
+  /* margin: 0 auto; */
 }
 
 .footer-right > .social-media ul {
@@ -505,25 +515,20 @@ footer, footer button, footer input, footer select, footer textarea {
   padding: 0;
 }
 
-/* min 880px */
-
-@media (min-width: 880px) {
-
-  footer, .footer-container {
-    display: flex;
-  }
-
-  .footer-container {
-    width: 100%;
-    max-width: 1180px;
-    margin: 0 auto;
-  }
-
-}
-
 /* max 879px */
 
 @media (max-width: 879px) {
+
+  footer,
+  .footer-container {
+    display: block;
+  }
+
+  .footer-container {
+    margin: 0;
+    max-width: none;
+    width: auto;
+  }
 
   .description-section {
     padding-top: 63px;
@@ -600,7 +605,9 @@ footer, footer button, footer input, footer select, footer textarea {
     margin-top: 60px;
   }
 
-  .footer-left, .footer-middle, .footer-right {
+  .footer-left,
+  .footer-middle,
+  .footer-right {
     width: 100%;
     padding-right: 0;
     clear: both;
@@ -688,8 +695,6 @@ footer, footer button, footer input, footer select, footer textarea {
     align-self: center;
     text-align: center;
   }
-
-  /* Menu Trigger */
 
   .nav-menu {
     display: none;
