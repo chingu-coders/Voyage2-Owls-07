@@ -593,8 +593,54 @@ footer textarea {
     font-size: 1.125rem;
   }
 
+  .testimonials {
+    margin: 61px 0 125px 0;
+  }
+
+  .testimonials-quote {
+    flex-direction: column;
+  }
+
+  .quote-image_part {
+    width: auto;
+    text-align: center;
+  }
+
+  .quote-image {
+    width: auto;
+  }
+
+  .clark-img {
+    width: 175px;
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .testimonials-logo {
+    width: 110px;
+    margin-bottom: 28px;
+  }
+
+  .quote {
+    width: auto;
+  }
+
+  blockquote {
+    font-size: 2.5rem;
+    text-indent: -11px;
+  }
+
+  cite {
+    font-size: 1.125rem;
+  }
+
+  .quote-link {
+    font-size: 1.125rem;
+  }
+
   .pre-footer {
     height: 102px;
+    margin-top: -35px;
   }
 
   .footer-left input[type="submit"] {
