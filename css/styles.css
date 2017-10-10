@@ -649,6 +649,12 @@ footer textarea {
     color: hsl(267, 100%, 26%);
   }
 
+  .scroll-affix-header .mobile-sign-in,
+  .scroll-affix-header .mobile-menu-toggle {
+    transition: margin-top .3s;
+    margin-top: -15px;
+  }
+
   .flex-row .top-nav {
     display: flex;
   }
