@@ -744,13 +744,18 @@ footer textarea {
 
   .nav-menu ul.centralize li a {
     color:  hsla(0, 0%, 100%, 1);
-    font-size: 1.875em;
-    font-weight: 500;
+    font-size: 1.875rem;
+    font-weight: 300;
     letter-spacing: 1.5px;
     text-decoration: none;
     -webkit-transition: color .3s;
     transition: color .3s;
   }
+
+  .nav-menu ul.centralize li a:hover {
+    color: hsl(256, 100%, 66%);
+  }
+
 
 }
 
