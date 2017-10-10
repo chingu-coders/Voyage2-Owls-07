@@ -664,7 +664,6 @@ footer textarea {
   .mobile-sign-in,
   .mobile-menu-toggle {
     display: inline-block;
-    float: right;
     font-size: 1.125rem;
     font-weight: 600;
     color:  hsla(0, 0%, 100%, 1);
@@ -705,7 +704,7 @@ footer textarea {
   }
 
   #menu-btn:checked ~ .nav-menu {
-    display: block;
+    display: flex;
     position: fixed;
     top: 74px;
     left: 0;
