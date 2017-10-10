@@ -129,7 +129,7 @@ input#menu-btn {
 .description-section {
   background-color: hsl(267, 100%, 26%);
   position: relative;
-  height: 757px;
+  height: 780px;
   padding-top: 122px;
 }
 
@@ -532,6 +532,7 @@ footer textarea {
 
   .description-section {
     padding-top: 63px;
+    height: 757px;
   }
 
   .howbig {
