@@ -147,7 +147,7 @@ input#menu-btn {
 .howbig {
   font-size: 5rem;
   font-weight: 300;
-  margin-top: 59px;
+  margin-top: 43px;
   line-height: 1.1;
 }
 
@@ -749,8 +749,6 @@ footer textarea {
   }
 
   .nav-menu ul a {
-    visibility: visible;
-    opacity: 1;
     color: hsla(0, 0%, 100%, 1);
     font-weight: 300;
     line-height: 1.2;
@@ -761,15 +759,11 @@ footer textarea {
     text-align: center;
   }
 
-  .nav-menu {
-    display: none;
-  }
-
   #menu-btn > label:hover {
     cursor: pointer;
   }
 
-  #menu-btn:checked ~ .nav-menu {
+  .nav-menu {
     display: flex;
     position: fixed;
     top: 74px;
@@ -778,11 +772,14 @@ footer textarea {
     height: calc(100% - 74px);
     padding: 20px 0;
     background: hsl(267, 100%, 26%);
-    -webkit-transition: visibility .3s, opacity .3s;
-    transition: visibility .3s, opacity .3s;
+    transition: opacity .3s, visibility .3s;
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  #menu-btn:checked ~ .nav-menu {
     visibility: visible;
     opacity: 1;
-    z-index: 50;
   }
 
   .nav-menu ul {
